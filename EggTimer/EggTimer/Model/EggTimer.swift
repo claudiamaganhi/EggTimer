@@ -10,7 +10,7 @@ import Foundation
 
 class EggTimer {
     
-    var eggTimes = ["Soft": 5, "Medium": 8, "Hard": 12]
+    var eggTimes = ["Soft": 300, "Medium": 480, "Hard": 720]
     var timer = Timer()
     var countDown: Int = 0
     var shouldAnimate: Bool = true
